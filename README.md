@@ -1,6 +1,6 @@
 # async-or
 
-Run tasks in paralelle, and take the result from either
+Run tasks in parallel, and take the result from either
 the first (by list-order) task that succeeds, or, if none succeed,
 the last tasks error.
 
@@ -30,7 +30,7 @@ asyncOr([works1, works2], function(error, result){
 
 ```
 
-Tasks are run in paralelle, and the first task in the
+Tasks are run in parallel, and the first task in the
 task list that succeeds will resolve the callback.
 
 eg:
