@@ -1,7 +1,7 @@
 {
   "name": "async-or",
   "version": "1.0.0",
-  "description": "",
+  "description": "Run tasks in paralelle, and take the result from either the first (by list-order) task that succeeds, or, if none succeed, the last tasks error.",
   "main": "index.js",
   "directories": {
     "test": "test"
@@ -13,5 +13,6 @@
   "license": "ISC",
   "devDependencies": {
     "tape": "^4.6.0"
-  }
+  },
+  "dependencies": {}
 }
